@@ -1,0 +1,10 @@
+<section>
+    <h1>Welcome to the works page</h1>
+    {{#each works}}
+    <article>
+        <h2>{{this.title}}</h2>
+        <span>{{this.date}}</span>
+        <p>{{this.description}}</p>
+    </article>
+    {{/each}}
+</section>

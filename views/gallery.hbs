@@ -1,0 +1,11 @@
+<section>
+    <h1>Welcome to the photo gallery page</h1>
+    <div id="grid">
+    {{#each gallery }}
+        <div class="gallery">
+            <img src={{this.img}} alt={{this.title}}>
+            <h3>{{this.title}}</h3>
+        </div>
+    {{/each}}
+    </div>
+</section>
